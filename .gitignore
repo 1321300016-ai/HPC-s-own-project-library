@@ -1,0 +1,57 @@
+# Qt
+*.pro.user
+*.pro.user.*
+build-*/
+debug/
+release/
+.qmake.stash
+moc_*.cpp
+moc_*.h
+ui_*.h
+qrc_*.cpp
+
+# Keil MDK
+*.uvguix.*
+*.o
+*.obj
+*.axf
+*.hex
+*.bin
+*.elf
+*.map
+*.crf
+*.dep
+*.d
+*.lnp
+*.lst
+*.htm
+*.sct
+Objects/
+Listings/
+DebugConfig/
+
+# GCC and common build output
+*.a
+*.so
+*.so.*
+*.dll
+*.exe
+*.out
+router
+router.log
+
+# IDE and OS metadata
+.vs/
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+__pycache__/
+
+# Local configuration and credentials
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.p12
